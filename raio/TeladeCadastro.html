@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+
+
+
+</head>
+
+<body>
+    <div>
+    <h2 class="cadas">Cadastro</h2>
+    <div class="label-float">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder>
+        <br>
+       
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 80%;
+                margin: 20%;
+                background-color: #ad09ce07;
+                background-image: linear-gradient(45deg, rgb(119, 7, 211), rgb(43, 12, 179));
+
+
+            }
+
+            hr {
+                border: 0;
+                height: 1px;
+                background: #ccc;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+
+            .justify-center {
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+
+        <hr>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder=" " required>
+          
+            <hr>
+
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder=" " required>
+           
+            <hr>
+        </div>
+
+        <label for="confirmaSenha">Confirma Senha</label>
+        <input type="password" id="confirmaSenha" placeholder=" " required>
+       
+        <hr>
+
+
+        <button type="submit">Cadastrar</button>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
